@@ -17,10 +17,10 @@ $ sox -t raw  -b 16 -e signed-integer -r 16000 -c 1 source.raw target.wav
 Capturing stats from sox
 $ sox target.wav -n stat
 
-The Sox of Silence 
-https://digitalcardboard.com/blog/2009/08/25/the-sox-of-silence/comment-page-2/
+Trimming silence at the beginning 
+(trim silence - anything less than 1% volume, 0%: pure digital silence)
+$ sox in.wav out1.wav silence 1 0.1 1%
 ```
-
 
 PERL/SED/AWK 
 <pre>
