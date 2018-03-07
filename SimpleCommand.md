@@ -8,9 +8,8 @@ $ jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
 
 
 SoX (Sound eXchange, for audio manipulation)
+- [manual](http://sox.sourceforge.net/sox.html), [usages](https://digitalcardboard.com/blog/2009/08/25/the-sox-of-silence/comment-page-2/)
 ```
-http://sox.sourceforge.net/sox.html
-
 Converting .pcm(16kHz, 16bits) to .wav
 $ sox -t raw  -b 16 -e signed-integer -r 16000 -c 1 source.raw target.wav 
 
@@ -21,6 +20,7 @@ Trimming silence at the beginning
 (trim silence - anything less than 1% volume, 0%: pure digital silence)
 $ sox in.wav out1.wav silence 1 0.1 1%
 ```
+
 
 PERL/SED/AWK 
 <pre>
