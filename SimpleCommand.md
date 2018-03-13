@@ -28,3 +28,7 @@ $ grep -v ^[[:space:]]*$ filename | wc -l
 $ perl -pi -e 'tr/a-z/A-Z/' 
 $ ls -1b
 </pre>
+
+
+VIM shortcuts
+- [cheatsheet](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet), [usages](http://sinoroo.tistory.com/entry/VIM-단축키-및-설정)
