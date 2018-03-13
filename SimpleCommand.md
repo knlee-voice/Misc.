@@ -18,7 +18,12 @@ $ sox target.wav -n stat
 
 Trimming silence at the beginning 
 (trim silence - anything less than 1% volume, 0%: pure digital silence)
-$ sox in.wav out1.wav silence 1 0.1 1%
+$ sox in.wav out.wav silence 1 0.1 1%
+
+Trim the audio file (at 1 min 15 sec and ending at 1 min 45 sec):
+$ sox in.wav out.wav trim 1:15 =1:45
+$ sox in.wav out.wav trim 1:15 0:30
+$ sox in.wav out.wav trim 75 30
 ```
 
 
