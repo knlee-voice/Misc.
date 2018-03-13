@@ -31,4 +31,4 @@ $ ls -1b
 
 
 VIM shortcuts
-- [cheatsheet](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet), [usages](http://sinoroo.tistory.com/entry/VIM-단축키-및-설정)
+- [cheatsheet](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet), [usages](http://sinoroo.tistory.com/entry/VIM-단축키-및-설정), [vim-cheat-sheet.gif](http://www.viemu.com/vi-vim-cheat-sheet.gif)
