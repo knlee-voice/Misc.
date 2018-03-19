@@ -30,8 +30,10 @@ $ pip install -Iv http://url/
 $ sudo sh cuda_8.0.61_375.26_linux-run (--silent –override) 
 2. nvidia 홈페이지 다운로드 
 $ chmod +x NVIDIA-Linux-x86_64-384.98.run
+$ sudo NVIDIA-Linux-x86_64-384.98.run
 3. cuDNN 6.0 설치 (cudnn-8.0-linux-x64-v6.0.tgz)
-$ cd cuda; sudo cp lib64/libcu* /usr/local/cuda/lib64/
+$ cd cuda; 
+$ sudo cp lib64/libcu* /usr/local/cuda/lib64/
 $ sudo cp include/cudnn.h /usr/local/cuda/include/
 4. .bashrc 설정 및 확인
 $ nvcc -V 
