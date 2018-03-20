@@ -51,11 +51,11 @@ Python3.5 / TF v1.4
 ```
 $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.4.0-cp35-cp35m-linux_x86_64.whl
 $ pip3 install --ignore-installed --upgrade $TF_BINARY_URL
-```
+
 Problem >>> Python3.6 + TF 1.5/1.6 (x)
 Problem >>> ImportError: libcudnn.so.6: cannot open shared object file:
 Problem >>> ImportError: libcublas.so.9.0: cannot open shared object file: (cuda vs. TF version check!)
-```
+
 $ sudo ldconfig –v 
 ```
 ### Keras, Pytorch
@@ -73,6 +73,7 @@ $ pip3 install konlpy
 $ curl -LO https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
 $ cd mecab-ko-XX; ./configure; make; make check; sudo make install
 Problem >>> error while loading shared libraries: libmecab.so.2: ==> sudo ldconfig
+
 $ curl -LO https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.0.1-20150920.tar.gz
 
 $ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
