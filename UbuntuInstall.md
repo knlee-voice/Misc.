@@ -77,7 +77,7 @@ Problem >>> error while loading shared libraries: libmecab.so.2: ==> sudo ldconf
 $ curl -LO https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.0.1-20150920.tar.gz
 
 $ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
-$ cd xxx; python3 setup.py build; python3 setup.py install
+$ cd xxx; sudo python3 setup.py build; sudo python3 setup.py install
 ```
 
 ### 개발 환경 설치 (예상)
