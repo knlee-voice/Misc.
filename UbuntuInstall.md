@@ -46,28 +46,32 @@ $ pip install -Iv http://url/
   $ nvcc -V; nvidia-smi
 ```
 ### Tensorflow GPU 버전 설치 
-Python3.6 / TF v1.5
+Python3.5 / TF v1.4  
 ```
-$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.5.0-cp36-cp36m-linux_x86_64.whl
-$ sudo pip3 install --ignore-installed --upgrade $TF_BINARY_URL
+$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.4.0-cp35-cp35m-linux_x86_64.whl
+$ pip3 install --ignore-installed --upgrade $TF_BINARY_URL
 ```
+Problem >>> Python3.6 + TF 1.5/1.6 (x)
 Problem >>> ImportError: libcudnn.so.6: cannot open shared object file:
 Problem >>> ImportError: libcublas.so.9.0: cannot open shared object file: (cuda vs. TF version check!)
 ```
 $ sudo ldconfig –v 
 ```
-### Pytorch 
+### Keras, Pytorch
 ```
-pip3 install http://download.pytorch.org/whl/cu80/torch-0.3.1-cp36-cp36m-linux_x86_64.whl  
-pip3 install torchvision 
+$ pip3 install keras
+$ pip3 install http://download.pytorch.org/whl/cu80/torch-0.3.1-cp35-cp35m-linux_x86_64.whl  
+$ pip3 install torchvision 
 ```
 
 ### KoNLPy & Mecab-ko
 ```
-$ sudo apt-get install g++ openjdk-7-jdk
+$ sudo apt-get install g++ openjdk-8-jdk; pip3 install jpype1 
 $ pip3 install konlpy
-$ Download - https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
-$ 
+$ curl -LO https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
+$ cd mecab-ko-XX; ./configure; make; make check; sudo make install
+Problem >>> error while loading shared libraries: libmecab.so.2: ==> sudo ldconfig
+$ curl -LO https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.0.1-20150920.tar.gz
 ```
 
 ### 개발 환경 설치 (예상)
