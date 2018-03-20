@@ -65,14 +65,18 @@ $ pip3 install http://download.pytorch.org/whl/cu80/torch-0.3.1-cp35-cp35m-linux
 $ pip3 install torchvision 
 ```
 
-### KoNLPy & Mecab-ko
+### KoNLPy, Mecab-ko, MeCab-python
 ```
 $ sudo apt-get install g++ openjdk-8-jdk; pip3 install jpype1 
 $ pip3 install konlpy
+
 $ curl -LO https://bitbucket.org/eunjeon/mecab-ko/downloads/mecab-0.996-ko-0.9.2.tar.gz
 $ cd mecab-ko-XX; ./configure; make; make check; sudo make install
 Problem >>> error while loading shared libraries: libmecab.so.2: ==> sudo ldconfig
 $ curl -LO https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.0.1-20150920.tar.gz
+
+$ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
+$ cd xxx; python3 setup.py build; python3 setup.py install
 ```
 
 ### 개발 환경 설치 (예상)
