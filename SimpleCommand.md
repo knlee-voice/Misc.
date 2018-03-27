@@ -39,7 +39,8 @@ VIM shortcuts
 - [cheatsheet](https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet), [usages](http://sinoroo.tistory.com/entry/VIM-단축키-및-설정), [vim-cheat-sheet.gif](http://www.viemu.com/vi-vim-cheat-sheet.gif)
 
 
-## 장비 / 모델 확인
+
+## Product Name & Model Check
 ```
 MainBoard (@linux)
 $ dmidecode -t baseboard
