@@ -42,6 +42,8 @@ VIM shortcuts
 
 ## Product Name & Model Check
 ```
+H/W info'
+$ lspci; lspic -v
 MainBoard (@linux)
-$ dmidecode -t baseboard
+$ dmidecode -t baseboard; dmidecode -t baseboard-product-name
 ```
