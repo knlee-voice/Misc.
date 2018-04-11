@@ -24,6 +24,9 @@ Trim the audio file (at 1 min 15 sec and ending at 1 min 45 sec):
 $ sox in.wav out.wav trim 1:15 =1:45
 $ sox in.wav out.wav trim 1:15 0:30
 $ sox in.wav out.wav trim 75 30
+
+Generate Sound effects
+$ sox -n -r 16000 -c 1 synth_generate_5sec.raw synth 5 sin 347
 ```
 
 
