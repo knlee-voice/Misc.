@@ -2,6 +2,9 @@
 
 Ubutu Installation Guide 
    - vi font
+   - Pip, Python upgrade
+   - CUDA / NVIDIA Driver / cuDNN
+   - Tensorflow GPU ver.
    - Keras, Pytorch 
    - KoNLPy, Mecab-ko, MeCab-python
    
