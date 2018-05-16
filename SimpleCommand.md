@@ -5,15 +5,15 @@
 Converting IPython Notebook(.ipynb) to a Python file(.py)
 $ jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
 
+Writing default config to: .jupyter/jupyter_notebook_config.py 
 Running a notebook server
-$ edit .jupyter/jupyter_notebook_config.py 
 $ nohup jupyter notebook &
 </pre>
 
 
 #### SoX (Sound eXchange, for audio manipulation)
 - [manual](http://sox.sourceforge.net/sox.html), [usages1](https://digitalcardboard.com/blog/2009/08/25/the-sox-of-silence/comment-page-2/), [usages2](http://forums.justlinux.com/showthread.php?136678-using-sox-to-trim-silence-from-the-end-of-wav-files)
-```
+<pre>
 Converting .pcm(16kHz, 16bits) to .wav
 $ sox -t raw  -b 16 -e signed-integer -r 16000 -c 1 source.raw target.wav 
 
@@ -31,7 +31,7 @@ $ sox in.wav out.wav trim 75 30
 
 Generate Sound effects
 $ sox -n -r 16000 -c 1 synth_generate_5sec.raw synth 5 sin 347
-```
+</pre>
 
 
 #### PERL/SED/AWK 
@@ -55,9 +55,9 @@ $ screen -X -S sess_name kill ($ pkill screen / $ screen -wipe)
 </pre>
 
 ## Product Name & Model Check
-```
+<pre>
 H/W info'
 $ lspci; lspic -v
 MainBoard (@linux)
 $ dmidecode -t baseboard; dmidecode -t baseboard-product-name
-```
+</pre>
