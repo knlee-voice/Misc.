@@ -1,9 +1,13 @@
 #  Useful Simple Command 
 
-
-#### Converting IPython Notebook(.ipynb) to a Python file(.py)
+#### Jupyter Notebook
 <pre>
+Converting IPython Notebook(.ipynb) to a Python file(.py)
 $ jupyter nbconvert --to script [YOUR_NOTEBOOK].ipynb
+
+Running a notebook server
+$ edit .jupyter/jupyter_notebook_config.py 
+$ nohup jupyter notebook &
 </pre>
 
 
