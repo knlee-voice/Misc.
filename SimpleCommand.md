@@ -58,6 +58,7 @@ $ screen -X -S sess_name kill ($ pkill screen / $ screen -wipe)
 - [ubuntu-gitlab-install-use](http://html5around.com/wordpress/tutorials/ubuntu-gitlab-install-use-1/),
 [Git Cheatsheet](http://kwonnam.pe.kr/wiki/git/cheatsheet), [git-usage](https://github.com/jeonghwan-kim/git-usage)
 <pre>
+$ git init; git clone {url}
 $ git add "file_names"
 $ git commit -m "comment" 
 $ git push origin master
