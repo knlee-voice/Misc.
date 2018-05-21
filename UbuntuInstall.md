@@ -58,6 +58,7 @@ Problem >>> ImportError: libcublas.so.9.0: cannot open shared object file: (cuda
 
 $ sudo ldconfig –v 
 ```
+
 ### Keras, Pytorch
 ```
 $ pip3 install keras
@@ -78,6 +79,12 @@ $ curl -LO https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.0
 
 $ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
 $ cd xxx; sudo python3 setup.py build; sudo python3 setup.py install
+```
+
+### Kaldi-asr
+```
+$ cd tools; sh extras/check_dependencies.sh; make -j 8; 
+$ cd src; ./configure --shared; make depend -j 8; make -j 8
 ```
 
 ### 개발 환경 설치 (예상)
