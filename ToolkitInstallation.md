@@ -51,9 +51,10 @@ $ cd xxx; sudo python3 setup.py build; sudo python3 setup.py install
 ```
 
 ### Kaldi-asr
+https://github.com/kaldi-asr/kaldi
 ```
-$ cd tools; sh extras/check_dependencies.sh; make -j 8; 
-$ cd src; ./configure --shared; make depend -j 8; make -j 8
+$ cd tools; sh extras/check_dependencies.sh; make; 
+$ cd src; ./configure --shared; make depend; make;
 ```
 
 
