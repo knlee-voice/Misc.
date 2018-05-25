@@ -32,7 +32,7 @@ $ screen -X -S sess_name kill ($ pkill screen / $ screen -wipe)
 
 #### Gitlab 
 - [ubuntu-gitlab-install-use](http://html5around.com/wordpress/tutorials/ubuntu-gitlab-install-use-1/),
-[Git Cheatsheet](http://kwonnam.pe.kr/wiki/git/cheatsheet), [git-usage](https://github.com/jeonghwan-kim/git-usage), [git-간편안내서](https://rogerdudler.github.io/git-guide/index.ko.html)
+[Git Cheatsheet](http://kwonnam.pe.kr/wiki/git/cheatsheet), [git-usage](https://github.com/jeonghwan-kim/git-usage), [git-guide](https://rogerdudler.github.io/git-guide/index.ko.html)
 ```
 $ git init; git clone {url}
 $ git add "file_names"
