@@ -16,6 +16,7 @@ $ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 ```
 $ sudo cp molokai.vim  /usr/share/vim/vim74/colors/
 $ vi /etc/vim/vimrc (add line: colorscheme "xxx")
+>> vim edit :colorscheme elflord
 ```
 ### python upgrade (->3.6)
 ```
