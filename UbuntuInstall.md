@@ -32,6 +32,7 @@ $ pip search 패키지
 $ pip install 패키지==버전 (예: pip install requests==2.9.0)
 $ pip list 또는 pip freeze
 $ pip install -Iv http://url/
+$ pip install -r requirements.txt
 ```
 
 ### 개발 환경 설치 (예상)
