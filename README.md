@@ -12,6 +12,6 @@ Useful Simple Command ([1](SimpleCmd1.md))
   - Product Name & Model Check
   - Git
   
-Useful Simple Command (2)
+Useful Simple Command ([2](SimpleCmd2.md))
   - SoX
   - PERL/SED/AWK
