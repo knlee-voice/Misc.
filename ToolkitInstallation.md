@@ -50,7 +50,7 @@ $ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
 $ cd xxx; sudo python3 setup.py build; sudo python3 setup.py install
 ```
 
-### Kaldi-asr
+### Kaldi-ASR
 https://github.com/kaldi-asr/kaldi
 ```
 $ cd tools; sh extras/check_dependencies.sh; make; 
