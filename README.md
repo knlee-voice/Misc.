@@ -6,9 +6,11 @@ Ubutu Installation Guide
    - Keras, Pytorch 
    - KoNLPy, Mecab-ko, MeCab-python
    
-Useful Simple Command 
-  - SoX
-  - PERL/SED/AWK
+Useful Simple Command1
   - VIM shortcuts
   - Screen
   - Product Name & Model Check
+  
+Useful Simple Command2  
+  - SoX
+  - PERL/SED/AWK
