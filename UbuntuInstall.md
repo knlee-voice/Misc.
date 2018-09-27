@@ -65,14 +65,16 @@ sudo apt-get install libopenblas-dev libatlas-base-dev gfortran
   $ sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb
   $ sudo apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub
   $ sudo apt-get update
-  $ sudo apt-get install cuda
+  $ sudo apt-get install cuda-9-0
 7. CUDA patch 설치 (Patch 1 (Released Jan 25, 2018), ... Patch 4)
-  $ sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-cublas-performance-update_1.0-1_amd64.deb
-  $ sudo apt-get update; sudo apt-get upgrade cuda
-  $ sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-cublas-performance-update-2_1.0-1_amd64.deb
-  $ ... 
+  $ sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-cublas-performance-update_1.0-1_amd64-deb
+  $ sudo apt-get update; sudo apt-get upgrade cuda-9-0
+  $ sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-cublas-performance-update-2_1.0-1_amd64-deb
+  $ sudo apt-get update; sudo apt-get upgrade cuda-9-0
+  $ sudo dpkg -i cuda-repo-ubuntu1604-9-0-local-cublas-performance-update-3_1.0-1_amd64-deb
+  $ sudo apt-get update; sudo apt-get upgrade cuda-9-0
   $ sudo dpkg -i cuda-repo-ubuntu1604-9-0-176-local-patch-4_1.0-1_amd64-deb
-  $ sudo apt-get update; sudo apt-get upgrade cuda
+  $ sudo apt-get update; sudo apt-get upgrade cuda-9-0
 8. cuDNN 7 설치 (Download cuDNN v7.3.0 (Sept 19, 2018), for CUDA 9.0)
   $ tar xvfz cudnn-9.0-linux-x64-v7.3.0.29.solitairetheme8 (cuDNN v7.3.0 Library for Linux)
   $ sudo cp -P cuda/include/cudnn.h /usr/local/cuda/include 
