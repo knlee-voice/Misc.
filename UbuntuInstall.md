@@ -35,6 +35,11 @@ $ pip install -Iv http://url/
 $ pip install -r requirements.txt
 ```
 
+### login environment 
+```
+$ locale (-a) : 확인,  /etc/default/locale : 수정
+$ sudo locale-gen ko_KR.UTF-8 : 로케일 추가
+```
 ### 개발 환경 설치 (예상)
 ```
 sudo apt-get install python-dev python3-dev python3-pip python-pip 
