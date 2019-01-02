@@ -6,6 +6,7 @@
 $ grep -v ^[[:space:]]*$ filename | wc -l
 $ perl -pi -e 'tr/a-z/A-Z/' 
 $ ls -1b
+$ sed -i 's/prev_word/chg_word/g' filename
 </pre>
 
 
