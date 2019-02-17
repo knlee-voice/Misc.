@@ -3,7 +3,7 @@
 ## Apache Superset
 ```
 https://superset.incubator.apache.org/
-Business Intelligence Tool
+Business Intelligence Tool (AirBnB proj.)
 ```
 ## Apache Druid
 ```
