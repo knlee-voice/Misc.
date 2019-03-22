@@ -9,6 +9,17 @@ $ ls -1b
 $ sed -i 's/prev_word/chg_word/g' filename
 </pre>
 
+#### CMP/DIFF/COMM 
+<pre>
+$ diff --brief file1 file2
+$ diff -c file1 file2
+$ diff -r example example2
+    Only in example: test
+    Only in example2: test2
+$ comm [-1, -2, -3] file1 file2 
+  -1: common content only
+  -3: except for common content 
+</pre>
 
 #### SoX (Sound eXchange, for audio manipulation)
 - [manual](http://sox.sourceforge.net/sox.html), [usages1](https://digitalcardboard.com/blog/2009/08/25/the-sox-of-silence/comment-page-2/), [usages2](http://forums.justlinux.com/showthread.php?136678-using-sox-to-trim-silence-from-the-end-of-wav-files)
