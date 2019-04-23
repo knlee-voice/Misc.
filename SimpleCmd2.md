@@ -9,6 +9,13 @@ $ ls -1b
 $ sed -i 's/prev_word/chg_word/g' filename
 </pre>
 
+#### PASTE 
+<pre>
+$ paste names.txt numbers.txt
+$ paste -s names.txt numbers.txt (수직 -> 수평)
+$ paste -d '\t' names.txt numbers 
+</pre>
+
 #### CMP/DIFF/COMM 
 <pre>
 $ diff --brief file1 file2
