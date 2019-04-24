@@ -8,10 +8,8 @@ $ perl -pi -e 'tr/a-z/A-Z/'
 $ ls -1b
 $ sed -i 's/prev_word/chg_word/g' filename
 $ awk -F '{for(i=1; i<=NF; i++) print $i}' filename
-    
-http://www.wikiwand.com/ko/AWK
 </pre>
-
+- [AWK @wiki](http://www.wikiwand.com/ko/AWK)
 
 #### PASTE 
 <pre>
