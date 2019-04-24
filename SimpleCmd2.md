@@ -9,7 +9,7 @@ $ ls -1b
 $ sed -i 's/prev_word/chg_word/g' filename
 $ awk -F '{for(i=1; i<=NF; i++) print $i}' filename
     
-*  http://www.wikiwand.com/ko/AWK
+http://www.wikiwand.com/ko/AWK
 </pre>
 
 
