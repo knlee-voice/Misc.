@@ -27,6 +27,7 @@ $ nohup jupyter notebook &
 $ screen -S sess_name
 $ screen -list
 $ screen -r sess_name
+$ screen -D -r sess_name (이전 세션이 Attach 된 상태라면 Detach하고 세션을 복원)
 $ screen -X -S sess_name kill ($ pkill screen / $ screen -wipe)
 ```
 
