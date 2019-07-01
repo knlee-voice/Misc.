@@ -34,7 +34,9 @@ $ comm [-1, -2, -3] file1 file2
 - [manual](http://sox.sourceforge.net/sox.html), [usages1](https://digitalcardboard.com/blog/2009/08/25/the-sox-of-silence/comment-page-2/), [usages2](http://forums.justlinux.com/showthread.php?136678-using-sox-to-trim-silence-from-the-end-of-wav-files)
 <pre>
 Converting .pcm(16kHz, 16bits) to .wav
-$ sox -t raw  -b 16 -e signed-integer -r 16000 -c 1 source.raw target.wav 
+$ sox -r 16000 -b 16 -e signed-integer -c 1 -t raw source.raw target.wav 
+Converting .wav to pcm(16kHz, 16bits)
+$ sox source.wav -r 16000 -b 16 -e signed-integer -c 1 -L -t raw --show-progress target.pcm  (-L: big endian)
 
 Capturing stats from sox
 $ sox target.wav -n stat
