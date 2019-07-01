@@ -36,7 +36,7 @@ $ comm [-1, -2, -3] file1 file2
 Converting .pcm(16kHz, 16bits) to .wav
 $ sox -r 16000 -b 16 -e signed-integer -c 1 -t raw source.raw target.wav 
 Converting .wav to pcm(16kHz, 16bits)
-$ sox source.wav -r 16000 -b 16 -e signed-integer -c 1 -L -t raw --show-progress target.pcm  (-L: big endian)
+$ sox source.wav -r 16000 -b 16 -e signed-integer -c 1 -t raw --show-progress target.pcm  (-L: big endian)
 
 Capturing stats from sox
 $ sox target.wav -n stat
