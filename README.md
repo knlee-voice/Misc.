@@ -1,6 +1,6 @@
 # Misc.
 
-Ubutu Installation Guide 
+Ubutu Installation Guide - [(link)](UbuntuInstall.md)
 
 Useful Simple Command ([1](SimpleCmd1.md))
   - VIM shortcuts
@@ -12,9 +12,10 @@ Useful Simple Command ([2](SimpleCmd2.md))
   - SoX
   - PERL/SED/AWK
 
-Toolkit Installation
+Toolkit Installation - [(link)](ToolkitInstallation.md)
    - Tensorflow GPU ver.
    - Keras, Pytorch 
    - KoNLPy, Mecab-ko, MeCab-python
    - Kaldi-ASR
    
+Useful Open Tools - [(link)](OpenTools.md) 
